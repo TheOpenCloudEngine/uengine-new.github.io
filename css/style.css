@@ -4271,6 +4271,9 @@ a.logo:hover{
 .bg-gradient-white{
     background-image: linear-gradient(0deg, #fff 0%, transparent 60%);
 }
+.bg-gradient-white100{
+    background-image: linear-gradient(0deg, #fff 0%, transparent 100%);
+}
 .bg-gradient-dark{
     background-image: linear-gradient(0deg, var(--color-dark-1) 0%, transparent 60%);
 }
@@ -10969,7 +10972,7 @@ a.blog-item-more:hover{
 .testimonials-slider-1 blockquote{
     position: relative;
     margin: 0 0 1.5em 0;
-    padding-left: 1.9778em;
+    /* padding-left: 1.9778em; */
     font-size: 46px;
     border: none;
     background: none;    
@@ -11584,7 +11587,8 @@ html:not(.mobile) .owl-animate-fadeInDown{
     top: -0.21em;
     left: -0.3em;
     font-family: Georgia, Times, Serif;
-    font-size: 11em;
+    font-size: 9em;
+    /* font-size: 11em; */
     font-weight: 700;
     line-height: 1;
     color: var(--color-primary-light-1);
@@ -11592,7 +11596,18 @@ html:not(.mobile) .owl-animate-fadeInDown{
 .testimonials-6-icon-center{
     position: absolute;
     top: -0.21em;
-    left: 0.85em;
+    left: 1.15em;
+    /* left: 0.85em; */
+    font-family: Georgia, Times, Serif;
+    font-size: 9em;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--color-primary-light-1);
+}
+.testimonials-6-icon-news{
+    position: absolute;
+    top: -0.15em;
+    left: -0.07em;
     font-family: Georgia, Times, Serif;
     font-size: 11em;
     font-weight: 700;
@@ -12534,6 +12549,9 @@ html:not(.mobile) .owl-animate-fadeInDown{
 }
 
 /* 뉴스룸 */
+.newsroom {
+    position: relative;
+}
 .newsroom h2 {
     line-height: 1.5;
 }
